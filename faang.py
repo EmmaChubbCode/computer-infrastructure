@@ -1,3 +1,6 @@
+# add a shebang line.
+#! /usr/bin/ python
+
 # import
 import yfinance as yf
 from datetime import datetime
