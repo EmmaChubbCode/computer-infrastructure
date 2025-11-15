@@ -1,5 +1,4 @@
-# add a shebang line.
-#! /usr/bin/ python
+#!/usr/bin/env python3
 
 # import
 import yfinance as yf
