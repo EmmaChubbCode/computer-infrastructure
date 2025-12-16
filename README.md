@@ -28,11 +28,17 @@ cd computer-infrastructure
 ```bash
 pip install -r requirements.txt
 ```
-## 4. Use and Automation
+## 4. Use and Automation ▶️
 The GitHub Actions workflow (faang.yml) runs the script every Saturday at 08:37 UTC and commits new data and plots to the repository.
 
 To run the faang.py script manually from the command line:
 ```bash
 ./faang.py
 ``` 
-## Technologies Used
+## Technologies Used 💻
+- **Python 3**
+- **IPython/Jupyter Notebook** for development and write up
+- **yfinance** for stock data
+- **pandas** for data manipulation
+- **seaborn & matplotlib** for visualization
+- **GitHub Actions** for automation
